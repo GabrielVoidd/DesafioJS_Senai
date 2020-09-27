@@ -11,9 +11,8 @@ function onFormSubmit()
     else
     {
         updateRecord(formData)
+        resetForm();
     }
-
-    resetForm();
 }
 
 function readFormData()
